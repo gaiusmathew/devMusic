@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>Dev Music</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+	================================================== -->
+    <link rel="icon" type="image/png" href="images/headphones1.png">
+
+    <!-- Social sharing -->
+    <meta property=“og:image” content=“https://music.on.dev/images/dev-music.jpg” />
+
+    <meta property=”og:image:width” content=”180″ />
+
+    <meta property=”og:image:height” content=”110″ />
+
+    <!-- Social media sharing title -->
+    <meta name=”twitter:card” content="Get ready to embrace the future of coding with music">
+    <meta name=”twitter:url” content=”https://music.on.dev/”>
+    <meta name=”twitter:title” content=”Dev Music”>
+    <meta name=”twitter:description” content=”Get ready to embrace the future of coding with music. Listen to curated, non-vocal and distraction-free music playlists to increase your productivity and focus while coding/programming.””>
+    <meta name=”twitter:image” content=”https://music.on.dev/images/dev-music.jpg”>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body id="top">
+
+    <!-- header 
+   ================================================== -->
+    <header>
+
+        <div class="row">
+            <div class="logo">
+                <a href="#">Dev Music</a>
+            </div>
+
+            <div class="social-links">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header> <!-- /header -->
+
+    <!-- home
+   ================================================== -->
+    <section id="home" class="home-particles">
+
+        <div class="shadow-overlay"></div>
+
+        <div class="content-wrap-table">
+
+            <div class="main-content-tablecell">
+
+                <div class="row">
+                    <div class="col-twelve">
+
+                        <div id="counter">
+                            <div class="half">
+                                <span id="days">11 <sup>days</sup></span>
+                                <span id="hours">11 <sup>hours</sup></span>
+                            </div>
+                            <div class="half">
+                                <span id="mins">11 <sup>mins</sup></span>
+                                <span id="secs">11 <sup>secs</sup></span>
+                            </div>
+                        </div>
+
+                        <div class="bottom-text">
+                            <h1>Dev Music is unleashing soon</h1>
+                            <p>
+                                Get ready to embrace the future of coding with music. Dev music is a music platform for
+                                working enthusiast,
+                                to unleash their full potential by listening to uninterupted music.
+
+                            </p>
+                        </div>
+
+                    </div> <!-- /twelve -->
+
+                </div> <!-- /row -->
+
+            </div> <!-- /main-content -->
+
+        </div> <!-- /content-wrap -->
+
+    </section> <!-- /home -->
+
+    <script>
+        // The data/time we want to countdown to
+        var countDownDate = new Date("Jul 28, 2020 18:37:52").getTime();
+
+        // Run myfunc every second
+        var myfunc = setInterval(function () {
+
+            var now = new Date().getTime();
+            var timeleft = countDownDate - now;
+
+            // Calculating the days, hours, minutes and seconds left
+            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
+
+            // Result is output to the specific element
+            document.getElementById("days").innerHTML = days + " <sup>days</sup> "
+            document.getElementById("hours").innerHTML = hours + " <sup>hours</sup>  "
+            document.getElementById("mins").innerHTML = minutes + " <sup>mins</sup> "
+            document.getElementById("secs").innerHTML = seconds + " <sup>secs</sup> "
+
+            // Display the message when countdown is over
+            if (timeleft < 0) {
+                clearInterval(myfunc);
+                document.getElementById("days").innerHTML = ""
+                document.getElementById("hours").innerHTML = ""
+                document.getElementById("mins").innerHTML = ""
+                document.getElementById("secs").innerHTML = ""
+                document.getElementById("end").innerHTML = "The wait is over!!";
+            }
+        }, 1000);
+    </script>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
