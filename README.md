@@ -76,6 +76,10 @@ To set up a development environment, please follow these steps:
 
     Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Screenshots
+![Dev Music Dashboard](https://github.com/gaiusmathew/devMusic/blob/main/src/assets/dev-music.png)
+
+
 ## Issues
 
 You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/gaiusmathew/devMusic/issues). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
