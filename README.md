@@ -1,6 +1,6 @@
 # Project Lyrics
 
-Develop an elegant React.js Music Application. 
+Music platform curated for working professionals. 
 
 # Contributing
 
