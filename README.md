@@ -1,4 +1,4 @@
-# Project Lyrics
+# Dev Music
 
 Music platform curated for working professionals. 
 
@@ -90,3 +90,5 @@ Please try to create bug reports that are:
 - _Specific._ Include as much detail as possible: which version, what environment, etc.
 - _Unique._ Do not duplicate existing opened issues.
 - _Scoped to a Single Bug._ One bug per report.
+
+Thank you for your support.
