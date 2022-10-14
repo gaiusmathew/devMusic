@@ -42,5 +42,9 @@ module.exports = {
         },
       },
     },
+    fontFamily: {
+      sans: ['ui-sans-serif', 'system-ui'],
+      serif: ['ui-serif', 'Georgia'],
+    },
   },
 };

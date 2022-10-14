@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body,
+html {
+	/* font-family: 'Roboto', sans-serif; */
+}
+
 /* Active Navigation Link */
 .active {
-  @apply text-cyan-500;
+  @apply text-white;
 }
 
 .active svg {
-  @apply text-cyan-500;
+  @apply text-white;
 }
 
 .bar:nth-child(2) {
